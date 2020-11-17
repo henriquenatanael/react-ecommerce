@@ -1,0 +1,23 @@
+.product-list {
+    @include flex-between;
+    .product-item {
+        width: 48%;
+        text-align: center;
+        margin-bottom: 50px;
+        img {
+            margin: 0 auto;
+        }
+    }
+}
+
+.product-list-home {
+    @include flex-between;
+    .product-item {
+        width: 30%;
+        text-align: center;
+        margin-bottom: 50px;
+        img {
+            margin: 0 auto;
+        }
+    }
+}
